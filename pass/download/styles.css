@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 4vh;
+    color: white;
+}
+
+img {
+    top: 5vh;
+    position: relative;
+    width: 30vh;
+    cursor: pointer;
+}
+
+#flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    top: 5vh;
+    position: relative;
+}
+
+#content {
+    background: black;
+    display: flex;
+    justify-content: center;
+    height: 78%;
+    aspect-ratio: 10/16;
+}

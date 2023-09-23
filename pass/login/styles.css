@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+#flex {
+    /*Center contents horizontally and vertically*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#centered {
+    display: flex;
+    justify-content: center;
+    height: 78%;
+    aspect-ratio: 10/16;
+    border: 1vh black solid;
+    border-radius: 4vh;
+    position: relative;
+}
+
+#logo {
+    height: 25%;
+    aspect-ratio: 1;
+    top: 5%;
+    position: absolute;
+}
+
+#header {
+    font-family: Arial, Helvetica, sans-serif;
+    top: 30%;
+    position: absolute;
+    font-size: 5vh;
+}
+
+#signin {
+    top: 75%;
+    width: 80%;
+    position: absolute;
+    cursor: pointer;
+}
